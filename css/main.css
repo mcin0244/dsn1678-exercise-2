@@ -78,9 +78,8 @@ body {
   text-align: center;
 }
 
-.chart__label:hover,
-.chart__label:focus,
-.chart__label:active {
+
+.chart__item:hover .chart__label {
   color: #fff;
 }
 
@@ -103,7 +102,7 @@ body {
 .chart__bar:hover,
 .chart__bar:focus,
 .chart__bar:active {
-  background-color: #000;
+  background-color: #84d6fc;
 }
 
 
@@ -137,3 +136,5 @@ body {
   border-right: 10px solid transparent;
   border-top: 10px solid #000;
 }
+
+
