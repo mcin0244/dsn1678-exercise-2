@@ -154,4 +154,5 @@ body {
 .chart__item:hover .chart__count {
   bottom:0;
   opacity:1;
+  top: -4em;
 }
