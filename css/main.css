@@ -126,12 +126,15 @@ body {
   top: -2em;
   width: 4.6em;
   z-index: 1;
+  position: relative;
+  overflow: hidden;
 
   background-color: #000;
   border-radius: 6px;
   opacity: 0;
 
   text-align: center;
+  transition: all 250ms linear;
 }
 
 .chart__count::after {
@@ -148,4 +151,7 @@ body {
   border-top: 10px solid #000;
 }
 
-
+.chart__item:hover .chart__count {
+  bottom:0;
+  opacity:1;
+}
