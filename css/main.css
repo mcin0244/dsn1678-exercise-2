@@ -83,6 +83,12 @@ body {
   color: #fff;
 }
 
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active {
+  background-color: #878a96;
+}
+
 .chart__bar-wrap {
   bottom: 0;
   position: absolute;
