@@ -127,7 +127,6 @@ body {
   width: 4.6em;
   z-index: 1;
   position: relative;
-  overflow: hidden;
 
   background-color: #000;
   border-radius: 6px;
@@ -156,3 +155,5 @@ body {
   opacity:1;
   top: -4em;
 }
+
+
